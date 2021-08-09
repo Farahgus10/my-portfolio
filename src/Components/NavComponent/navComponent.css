@@ -1,0 +1,15 @@
+.nav {
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 100%;
+}
+
+.nav_elements {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav_elements p {
+    margin-right: 30px;
+    font-family: 'Roboto Mono', monospace;
+}

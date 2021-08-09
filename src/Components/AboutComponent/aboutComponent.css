@@ -1,0 +1,40 @@
+.about {
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+.about_header {
+    margin-left: 5%;
+    font-size: 3em;
+}
+
+h1 {
+    margin-bottom: 3%;
+}
+
+.bio, h3 {
+    color: green;
+    font-weight: bold;
+    font-size: 1.3em
+}
+
+.about_box_1 {
+    position: relative;
+}
+
+.about_description {
+    margin-left: 18%;
+    /* border: 1px solid blue; */
+    width: 35%;
+}
+
+.skills {
+    /* border: 1px solid purple; */
+    position: absolute;
+    width: 20%;
+    right: 15%;
+    top: 145%;
+    text-align: right;
+}
+

@@ -1,0 +1,58 @@
+.projects_header {
+    font-size: 2.5em;
+    text-align: right;
+    margin-right: 25%;
+}
+
+.projects {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 10%;
+    height: 480px;
+}
+
+.project h2 {
+    text-align: center;
+}
+
+.project-description {
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.project-description h2 {
+    font-size: 1.4em
+}
+
+.project-description p, .project-description a {
+    font-size: 1.1em;
+}
+
+.project-picture {
+    /* border: 1px solid brown; */
+    width: 100%;
+}
+
+.project-picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.project-description a, .tech-stack {
+    text-decoration: none;
+    color: grey;
+}
+
+.project-description a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
