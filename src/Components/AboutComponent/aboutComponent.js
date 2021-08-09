@@ -4,7 +4,7 @@ import './aboutComponent.css'
 export default class AboutComponent extends React.Component {
     render() {
         return (
-            <div className="about">
+            <div className="about" id="contact">
                 <div className="about_box_1">
                     <div className="about_header">
                         <h1>About</h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll'
 import './navComponent.css'
 
 
@@ -7,9 +8,9 @@ export default class NavComponent extends React.Component {
         return(
             <div className="nav">
                 <div className="nav_elements">
-                    <p>About</p>
-                    <p>Projects</p>
-                    <p>Contact</p>
+                    <Link to="projects" spy={true} smooth={true}>Projects</Link>
+                    <Link to="about" spy={true} smooth={true}>About</Link>
+                    <Link to="header" spy={true} smooth={true}>Contact</Link>
                 </div>
             </div>
         )

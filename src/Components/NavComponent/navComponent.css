@@ -2,6 +2,8 @@
     /* border: 1px solid red; */
     position: fixed;
     width: 100%;
+    padding-top: 20px;
+    font-size: 1.1em;
 }
 
 .nav_elements {
@@ -9,7 +11,14 @@
     flex-direction: row-reverse;
 }
 
-.nav_elements p {
+.nav_elements a {
     margin-right: 30px;
     font-family: 'Roboto Mono', monospace;
 }
+
+.nav_elements a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

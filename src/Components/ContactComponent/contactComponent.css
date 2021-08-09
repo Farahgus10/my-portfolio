@@ -3,7 +3,7 @@
     width: 50%;
     margin-left: auto;
     margin-right: 10%;
-    margin-top: 50px;
+    /* margin-top: 20px; */
     margin-bottom: 4%;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2em;
@@ -19,4 +19,14 @@ float: left;
 
 .title {
   color: green;
+}
+
+.col a {
+  text-decoration: none;
+  color: black;
+}
+
+.col a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }

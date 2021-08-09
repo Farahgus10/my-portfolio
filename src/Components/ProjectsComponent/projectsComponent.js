@@ -7,7 +7,7 @@ import rendezvousImage from '../../Images/rendezvous.png'
 export default class ProjectsComponent extends React.Component {
     render() {
         return( 
-            <div className="projects">
+            <div className="projects" id="projects">
                 <div className="projects_header">
                     <h1>Projects</h1>
                 </div>
