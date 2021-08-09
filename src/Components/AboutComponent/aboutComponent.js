@@ -12,9 +12,9 @@ export default class AboutComponent extends React.Component {
                     
                     <div className="about_description">
                         <p className="bio">Bio</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <p>I'm a full-stack developer who values collaborative work, open minds, and a desire to keep learning above all else.</p>
+                        <p>Besides coding, a typical week consists of exploring the great outdoors with my dog, learning new cooking skills, or curled up with a good book.</p>
+                        <p>If you're interested in working with me, or just want to say hello, feel free to contact me through phone, email, or Linkedin.</p>
                     </div>
                 </div>
 

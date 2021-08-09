@@ -8,7 +8,7 @@ export default class ContactComponent extends React.Component {
             <div className="contact-component" id="contact">
                 <div className="col contact_phone">
                     <p className="title">phone</p>
-                    <p>(301) 542 4486</p>
+                    <p>(301) 542-4486</p>
                 </div>
                 <div className="col contact_email">
                     <p className="title">email</p>
