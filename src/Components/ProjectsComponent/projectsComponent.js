@@ -2,6 +2,7 @@ import React from "react";
 import './projectsComponent.css'
 import sustainachoiceImage from '../../Images/sustainachoice.PNG'
 import movieRouletteImage from '../../Images/movieroulette.PNG'
+import rendezvousImage from '../../Images/rendezvous.png'
 
 export default class ProjectsComponent extends React.Component {
     render() {
@@ -34,6 +35,19 @@ export default class ProjectsComponent extends React.Component {
                         <p className="tech-stack">Technical stack: React, Node, PostgreSQL, Express, HTML, CSS</p>
                         <a href="https://github.com/Farahgus10/Movie-Roulette-client"><p>Client-side repo</p></a>
                         <a href="https://github.com/Farahgus10/Movie-Roulette-Server"><p>Server-side repo</p></a>
+                    </div>
+                </div>
+
+                <div className="project project_3">
+                    <div className="project-description">
+                        <h2>Rendezvous</h2>
+                        <p>A dating app that connects people through mutual interests and events in their area.</p>
+                        <p className="tech-stack">Technical stack: React, Node, PostgreSQL, Express, HTML, CSS</p>
+                        <a href="https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client"><p>Client-side repo</p></a>
+                        <a href="https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Capstone3-Server"><p>Server-side repo</p></a>
+                    </div>
+                    <div className="project-picture"> 
+                        <a href="https://rendezvous-app.vercel.app/landingPage"><img src={rendezvousImage}/></a>
                     </div>
                 </div>
 
